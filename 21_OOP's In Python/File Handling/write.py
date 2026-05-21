@@ -1,0 +1,6 @@
+file=open("demo.text","w")
+# file.write("hello ji\n")
+# file.write("Hello World!\n")
+# file.write("Divyanshu")
+file.writelines("hello ji\n""Hello World!\n")
+file.close()
